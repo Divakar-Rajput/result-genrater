@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+.college-details{
+    width:75%;text-align:center;vertical-align:top;padding:5px;margin-left:1px; line-height:25px;font-size:15px; border:none !important;
+}
+#print-time{
+    font-size: 11px; font-family: Calibri, Arial; text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 7px;
+    text-align: left;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table:first-of-type {
+    margin-bottom: 0;
+    border: none;
+}
+
+.print-area img {
+    display: block;
+    margin: auto;
+}
+
+th.ps-1, td.ps-1 {
+    padding-left: 5px;
+}
+
+.bt {
+    border-top: 1px solid #ff7402;
+    font-size: 16px;
+}
+
+.bb {
+    border-bottom: 1px solid #ff7402;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.br {
+    border-right: 1px solid #ff7402;
+}
+.fs-4{
+    font-size: calc(1.275rem + .3vw)!important;
+}
+.bl {
+    border-left: 1px solid #ff7402;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.p-1 {
+    padding: 5px;
+}
+
+
+.print-area {
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding-left: 15px;
+}
+div[style*='text-align:center'] {
+    font-size: 14px;
+    margin-top: 20px;
+}

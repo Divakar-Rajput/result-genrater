@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onresize="resize()">
+    <div class="row">
+        <div class="col-12 print-area" id="col-12">
+            <table>
+                <tr>
+                    <td id="print-time"></td>
+                </tr>
+            </table>
+
+            <table style="border: 2px solid #ff7402; background-image: url(logo-watermark.png); background-repeat: no-repeat; background-position: center;">
+                <tr>
+                    <td style="border: 1px solid #ff7402;">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="logo.png" style="width: 100px; height: 100px;margin-top:2px;" alt="" />
+                                </td>
+                                <td class="college-details">
+                                    <span style=" font-weight:bold;font-size:20px">Raja Mahendra Pratap Singh
+                                        University, Aligarh </span> <br />
+                                    Examination <span id="session">2023-24</span><br />
+                                    STATEMENT OF MARKS/GRADE<br />
+                                    <b>BACHELOR OF COMPUTER APPLICATION-<span id="sem">I</span></b>
+                                </td>
+                                <td style="width: 100px; height: 100px;margin-top:2px"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr style="text-align: left; padding:0px;">
+
+                    <td style="border-bottom:none !important; padding:0px">
+                        <table class="print" style="width: 100%; font-size: 14px; font-family: Calibri, Arial;">
+                            <tbody>
+                                <tr>
+                                    <th class="ps-1">ROLL NO </th>
+
+                                    <td colspan="2">
+                                        :<strong id="roll-no"> 2423495011021</strong>
+                                    </td>
+
+                                    <td rowspan="6">
+                                        <div>
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img id="student-img" src="logo.png"
+                                                            style="width: 100px; height: 100px;margin-top:2px" alt="" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <b> CATEGORY :</b>
+                                                        <span id="category">REGULAR</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <span style="text-align:right">
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th class="ps-1"> ENROLLMENT NO</th>
+                                    <td colspan="2">
+                                        : <span id="enrollment-no">RMPU23165791</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th class="ps-1"> STUDENT'S NAME</th>
+                                    <td colspan="2">
+                                        : <b id="student-name">DIVAKAR SINGH CHAUHAN</b>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th class="ps-1"> FATHER'S NAME</th>
+                                    <td colspan="2">
+                                        : <span id="father-name">DASHRATH CHAUHAN</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="ps-1"> MOTHER'S NAME</th>
+                                    <td colspan="2">
+                                        : <span id="mother-name">SAROJVATI</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="ps-1"> COLLEGE NAME</th>
+                                    <td colspan="2">
+                                        :<b id="college-name"> (2349) I.T.M. COLLEGE, ALIGARH-PALWAL-DELHI ROAD, KARSUA, ALIGARH</b>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td style="padding:0px !important ;border:none !important">
+                        <table style="width: 100%; font-size: 12px; font-family: Calibri, Arial;">
+                            <tr>
+                                <th class="bt bb br ps-1"><strong>Courses </strong></th>
+                                <th class="bt bb br text-center" style="width: 50px;" colspan="4"><strong>Maximum Marks
+                                    </strong></th>
+                                <th class="bt bb br text-center" style="width: 50px;" colspan="3"><strong>Minimum Marks
+                                    </strong></th>
+                                <th class="bt bb text-center" style="width: 50px;" colspan="3"><strong>Marks Obtained
+                                    </strong></th>
+                            </tr>
+                            <tr>
+                                <td class="bb br p-1 align-middle" id="subject1">COMPUTER FUNDAMENTALS AND MS-OFFICE</td>
+
+                                <td class="bb p-1 align-middle" style="width: 30px;">
+                                    Theory<br />Internal
+                                </td>
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    50<br />50
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    100
+                                </td>
+
+                                <td class="bb ps-1 align-middle" style="width: 20px;">
+                                    20<br />
+                                    --
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    40
+                                </td>
+
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    <span id="subject1-theory">43</span><br />
+                                    <span id="subject1-practical">44</span>
+                                </td>
+                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
+                                    <span id="subject1-total">87</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bb br p-1 align-middle" id="subject2">INTRODUCTION TO PROGRAMMING USING &quot;C&quot;</td>
+
+                                <td class="bb p-1 align-middle" style="width: 30px;">
+                                    Theory<br />Internal
+                                </td>
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    50<br />50
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    100
+                                </td>
+
+                                <td class="bb ps-1 align-middle" style="width: 20px;">
+                                    20<br />
+                                    --
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    40
+                                </td>
+
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    <span id="subject2-theory">32</span><br />
+                                    <span id="subject2-practical">42</span>
+                                </td>
+                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
+                                    <span id="subject2-total">74</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bb br p-1 align-middle">BUSINESS COMMUNICATION AND SOFT SKILL</td>
+
+                                <td class="bb p-1 align-middle" style="width: 30px;">
+                                    Theory<br />Internal
+                                </td>
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    50<br />50
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    100
+                                </td>
+
+                                <td class="bb ps-1 align-middle" style="width: 20px;">
+                                    20<br />
+                                    --
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    40
+                                </td>
+
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    35<br />
+                                    44
+                                </td>
+                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
+                                    79
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bb br p-1 align-middle">INTRODUCTION TO HTML-CSS-XML</td>
+
+                                <td class="bb p-1 align-middle" style="width: 30px;">
+                                    Theory<br />Internal
+                                </td>
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    50<br />50
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    100
+                                </td>
+
+                                <td class="bb ps-1 align-middle" style="width: 20px;">
+                                    20<br />
+                                    --
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    40
+                                </td>
+
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    43<br />
+                                    44
+                                </td>
+                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
+                                    87
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bb br p-1 align-middle">MATHEMATICS-I</td>
+
+                                <td class="bb p-1 align-middle" style="width: 30px;">
+                                    Theory<br />Internal
+                                </td>
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    50<br />50
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    100
+                                </td>
+
+                                <td class="bb ps-1 align-middle" style="width: 20px;">
+                                    20<br />
+                                    --
+                                </td>
+                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
+                                    40
+                                </td>
+
+                                <td class="bb p-1 align-middle" style="width: 20px;">
+                                    29<br />
+                                    42
+                                </td>
+                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
+
+                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
+                                    71
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bb br p-1 align-middle">PRACTICAL</td>
+                                <td class="bb br p-1 text-center align-middle fw-bold" colspan="4" style="width: 20px;">
+                                    100
+                                </td>
+
+                                <td class="bb br p-1 text-center align-middle fw-bold" colspan="3" style="width: 20px;">
+                                    40
+                                </td>
+
+                                <td class="bb p-1 text-center align-middle fw-bold" colspan="3" style="width: 30px;">
+                                    75
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 0;">
+                        <table style="width: 100%">
+                            <tr>
+                                <td colspan="2" class="p-1">
+
+
+                                    <div style="font-weight:900">
+                                        RESULT :
+                                        <span>PASS</span>
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-1 align-top">
+
+                                    <table style="width: 100%; font-size: 12px; font-family: Calibri, Arial;">
+                                        <tr>
+                                            <td colspan="7" class="text-center bt bl bb br">
+                                                <b>
+                                                    Semester Wise Records
+                                                </b>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center bb bl br">Semester</th>
+                                            <th class="text-center bb br">Max / Min</th>
+                                            <th class="text-center bb br">Obt</th>
+                                            <th class="text-center bb br">Status</th>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center bb bl br">
+                                                <span>1</span>
+                                            </td>
+                                            <td class="text-center bb br"><span>600 / 300</span></td>
+                                            <td class="text-center bb br"><span>473</span></td>
+                                            <td class="text-center bb br"><span>PASS</span></td>
+
+                                        </tr>
+                                    </table>
+
+                                </td>
+                                <td class="p-1 align-top">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr style="font-size:12px">
+                    <td
+                        style="border-top:none !important;border-left: 1px solid #000 !important;border-right: 1px solid #000 !important;border-bottom: 1px solid #000 !important;">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="border:none !important ;text-align:left">
+                                    <b>Remarks:</b>
+                                    <ul style="list-style-type: square; margin: 0; padding-left: 15px;">
+                                        <li>In case of any discrepancy between entries in the mark sheet and in the
+                                            University record, the University record shall be final.</li>
+                                        <li>This statement is a computer generated document and no need of manual
+                                            signature.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+
+                        </table>
+                        <div style="text-align:center;float:right">
+                            <img src="controller.png" alt="logo" style="height: 50px;" /><br />
+                            Controller of Examinations
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
