@@ -16,23 +16,25 @@
                     <td id="print-time"></td>
                 </tr>
             </table>
-
-            <table style="border: 2px solid #ff7402; background-image: url(logo-watermark.png); background-repeat: no-repeat; background-position: center;">
+            <table
+                style="border: 2px solid #ff7402; background-image: url(logo-watermark.png); background-repeat: no-repeat; background-position: center;">
                 <tr>
                     <td style="border: 1px solid #ff7402;">
                         <table>
                             <tr>
                                 <td>
-                                    <img src="logo.png" style="width: 100px; height: 100px;margin-top:2px;" alt="" />
+                                    <img src="logo.png" alt="" class="University-logo" />
                                 </td>
                                 <td class="college-details">
-                                    <span style=" font-weight:bold;font-size:20px">Raja Mahendra Pratap Singh
+                                    <span class="rmpssu">Raja Mahendra Pratap Singh State
                                         University, Aligarh </span> <br />
                                     Examination <span id="session">2023-24</span><br />
                                     STATEMENT OF MARKS/GRADE<br />
-                                    <b>BACHELOR OF COMPUTER APPLICATION-<span id="sem">I</span></b>
+                                    <b id="cousre">BACHELOR OF COMPUTER APPLICATION-<span id="sem">I</span></b>
                                 </td>
-                                <td style="width: 100px; height: 100px;margin-top:2px"></td>
+                                <td style="width: 100px;margin-top:2px">
+                                    <img id="qr-img" src="qr.webp" alt="" />
+                                </td>
                             </tr>
                         </table>
                     </td>
@@ -40,13 +42,13 @@
                 <tr style="text-align: left; padding:0px;">
 
                     <td style="border-bottom:none !important; padding:0px">
-                        <table class="print" style="width: 100%; font-size: 14px; font-family: Calibri, Arial;">
+                        <table class="print">
                             <tbody>
                                 <tr>
                                     <th class="ps-1">ROLL NO </th>
 
                                     <td colspan="2">
-                                        :<strong id="roll-no"> 2423495011021</strong>
+                                        :<strong id="roll-no"> XXXXXXXXXXXXXXX</strong>
                                     </td>
 
                                     <td rowspan="6">
@@ -54,8 +56,7 @@
                                             <table>
                                                 <tr>
                                                     <td>
-                                                        <img id="student-img" src="logo.png"
-                                                            style="width: 100px; height: 100px;margin-top:2px" alt="" />
+                                                        <img id="student-image" src="student.jpg" alt="Student Image">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -74,33 +75,33 @@
                                 <tr>
                                     <th class="ps-1"> ENROLLMENT NO</th>
                                     <td colspan="2">
-                                        : <span id="enrollment-no">RMPU23165791</span>
+                                        : <span id="enrollment-no">XXXXXXXXXXXXXX</span>
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <th class="ps-1"> STUDENT'S NAME</th>
                                     <td colspan="2">
-                                        : <b id="student-name">DIVAKAR SINGH CHAUHAN</b>
+                                        : <b id="student-name">XXXXXXXX</b>
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <th class="ps-1"> FATHER'S NAME</th>
                                     <td colspan="2">
-                                        : <span id="father-name">DASHRATH CHAUHAN</span>
+                                        : <span id="father-name">XXXXXXXX</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th class="ps-1"> MOTHER'S NAME</th>
                                     <td colspan="2">
-                                        : <span id="mother-name">SAROJVATI</span>
+                                        : <span id="mother-name">XXXXXXXXXX</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th class="ps-1"> COLLEGE NAME</th>
                                     <td colspan="2">
-                                        :<b id="college-name"> (2349) I.T.M. COLLEGE, ALIGARH-PALWAL-DELHI ROAD, KARSUA, ALIGARH</b>
+                                        :<b id="college-name"> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</b>
                                     </td>
                                 </tr>
                             </tbody>
@@ -109,11 +110,10 @@
                 </tr>
 
                 <tr>
-
                     <td style="padding:0px !important ;border:none !important">
-                        <table style="width: 100%; font-size: 12px; font-family: Calibri, Arial;">
+                        <table id="record-table" style="width: 100%; font-size: 12px; font-family: Calibri, Arial;">
                             <tr>
-                                <th class="bt bb br ps-1"><strong>Courses </strong></th>
+                                <th class="bt bb br ps-1 text-center"><strong>Courses </strong></th>
                                 <th class="bt bb br text-center" style="width: 50px;" colspan="4"><strong>Maximum Marks
                                     </strong></th>
                                 <th class="bt bb br text-center" style="width: 50px;" colspan="3"><strong>Minimum Marks
@@ -121,199 +121,27 @@
                                 <th class="bt bb text-center" style="width: 50px;" colspan="3"><strong>Marks Obtained
                                     </strong></th>
                             </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:0px !important ;border:none !important">
+                        <table style="width: 100%; font-size: 12px; font-family: Calibri, Arial;">
                             <tr>
-                                <td class="bb br p-1 align-middle" id="subject1">COMPUTER FUNDAMENTALS AND MS-OFFICE</td>
-
-                                <td class="bb p-1 align-middle" style="width: 30px;">
-                                    Theory<br />Internal
-                                </td>
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    50<br />50
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    100
-                                </td>
-
-                                <td class="bb ps-1 align-middle" style="width: 20px;">
-                                    20<br />
-                                    --
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    40
-                                </td>
-
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    <span id="subject1-theory">43</span><br />
-                                    <span id="subject1-practical">44</span>
-                                </td>
-                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
-                                    <span id="subject1-total">87</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="bb br p-1 align-middle" id="subject2">INTRODUCTION TO PROGRAMMING USING &quot;C&quot;</td>
-
-                                <td class="bb p-1 align-middle" style="width: 30px;">
-                                    Theory<br />Internal
-                                </td>
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    50<br />50
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    100
-                                </td>
-
-                                <td class="bb ps-1 align-middle" style="width: 20px;">
-                                    20<br />
-                                    --
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    40
-                                </td>
-
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    <span id="subject2-theory">32</span><br />
-                                    <span id="subject2-practical">42</span>
-                                </td>
-                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
-                                    <span id="subject2-total">74</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="bb br p-1 align-middle">BUSINESS COMMUNICATION AND SOFT SKILL</td>
-
-                                <td class="bb p-1 align-middle" style="width: 30px;">
-                                    Theory<br />Internal
-                                </td>
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    50<br />50
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    100
-                                </td>
-
-                                <td class="bb ps-1 align-middle" style="width: 20px;">
-                                    20<br />
-                                    --
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    40
-                                </td>
-
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    35<br />
-                                    44
-                                </td>
-                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
-                                    79
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="bb br p-1 align-middle">INTRODUCTION TO HTML-CSS-XML</td>
-
-                                <td class="bb p-1 align-middle" style="width: 30px;">
-                                    Theory<br />Internal
-                                </td>
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    50<br />50
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    100
-                                </td>
-
-                                <td class="bb ps-1 align-middle" style="width: 20px;">
-                                    20<br />
-                                    --
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    40
-                                </td>
-
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    43<br />
-                                    44
-                                </td>
-                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
-                                    87
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="bb br p-1 align-middle">MATHEMATICS-I</td>
-
-                                <td class="bb p-1 align-middle" style="width: 30px;">
-                                    Theory<br />Internal
-                                </td>
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    50<br />50
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    100
-                                </td>
-
-                                <td class="bb ps-1 align-middle" style="width: 20px;">
-                                    20<br />
-                                    --
-                                </td>
-                                <td class="bb p-1 align-middle fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb br p-1 text-center align-middle fw-bold" style="width: 20px;">
-                                    40
-                                </td>
-
-                                <td class="bb p-1 align-middle" style="width: 20px;">
-                                    29<br />
-                                    42
-                                </td>
-                                <td class="bb p-1 align-middle align-middle  fs-4" style="width: 10px;">}</td>
-
-                                <td class="bb p-1 text-center align-middle fw-bold" style="width: 30px;">
-                                    71
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="bb br p-1 align-middle">PRACTICAL</td>
+                                <td class="bb br p-1 align-middle" style="width:57.1%;">PRACTICAL</td>
                                 <td class="bb br p-1 text-center align-middle fw-bold" colspan="4" style="width: 20px;">
-                                    100
-                                </td>
-
+                                    100</td>
                                 <td class="bb br p-1 text-center align-middle fw-bold" colspan="3" style="width: 20px;">
-                                    40
-                                </td>
-
-                                <td class="bb p-1 text-center align-middle fw-bold" colspan="3" style="width: 30px;">
-                                    75
-                                </td>
+                                    40</td>
+                                <td id="practical-total" class="bb p-1 text-center align-middle fw-bold" colspan="3"
+                                    style="width: 30px;">00</td>
                             </tr>
 
                         </table>
                     </td>
                 </tr>
+
 
                 <tr>
                     <td style="padding: 0;">
@@ -322,9 +150,8 @@
                                 <td colspan="2" class="p-1">
 
 
-                                    <div style="font-weight:900">
-                                        RESULT :
-                                        <span>PASS</span>
+                                    <div class="resutl">RESULT :
+                                        <span id="stauts">PASS</span>
                                     </div>
 
                                 </td>
@@ -332,7 +159,8 @@
                             <tr>
                                 <td class="p-1 align-top">
 
-                                    <table style="width: 100%; font-size: 12px; font-family: Calibri, Arial;">
+                                    <table style="width: 100%; font-size: 12px; font-family: Calibri, Arial;"
+                                        id="Semester-table">
                                         <tr>
                                             <td colspan="7" class="text-center bt bl bb br">
                                                 <b>
@@ -345,15 +173,6 @@
                                             <th class="text-center bb br">Max / Min</th>
                                             <th class="text-center bb br">Obt</th>
                                             <th class="text-center bb br">Status</th>
-
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center bb bl br">
-                                                <span>1</span>
-                                            </td>
-                                            <td class="text-center bb br"><span>600 / 300</span></td>
-                                            <td class="text-center bb br"><span>473</span></td>
-                                            <td class="text-center bb br"><span>PASS</span></td>
 
                                         </tr>
                                     </table>
@@ -373,7 +192,8 @@
                             <tr>
                                 <td style="border:none !important ;text-align:left">
                                     <b>Remarks:</b>
-                                    <ul style="list-style-type: square; margin: 0; padding-left: 15px;">
+                                    <ul
+                                        style="list-style-type: square; margin: 0; padding-left: 15px; text-transform: none;">
                                         <li>In case of any discrepancy between entries in the mark sheet and in the
                                             University record, the University record shall be final.</li>
                                         <li>This statement is a computer generated document and no need of manual
@@ -393,7 +213,187 @@
             </table>
         </div>
     </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h1 style="text-align: center;">Fake MarkSheet Generator</h1>
+            <h4 style="text-align: center;">Session Details</h4>
+            <form action="#">
+                <div class="studentdetailes">
+                    <div>
+                        <label for="session">Session</label>
+                        <select name="Session" id="input-session">
+                            <option value="2020-21">2020-21</option>
+                            <option value="2021-22">2021-22</option>
+                            <option value="2022-23">2022-23</option>
+                            <option value="2023-24">2023-24</option>
+                            <option value="2024-25">2024-25</option>
+                            <option value="2024-25">2025-26</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="session">Semester</label>
+                        <select name="Semester" id="input-sem">
+                            <option value="I">1</option>
+                            <option value="II">2</option>
+                            <option value="III">3</option>
+                            <option value="IV">4</option>
+                            <option value="V">5</option>
+                            <option value="VI">6</option>
+                            <option value="VII">7</option>
+                            <option value="VIII">8</option>
+                        </select>
+                    </div>
+                </div>
+                <h4 style="text-align: center;">Student Details</h4>
+                <div class="studentdetailes">
+                    <div>
+                        <label for="session">Roll Number</label>
+                        <input type="text" id="input-roll-no" placeholder="Example:24234950XXXX">
+                    </div>
+                    <div>
+                        <label for="session">ENROLLMENT NO</label>
+                        <input type="text" id="input-enrollment-no" placeholder="Example:RMPU2316XXX">
+                    </div>
+                    <div>
+                        <label for="session">Student Name</label>
+                        <input type="text" id="input-student-name" placeholder="Example:XYZ">
+                    </div>
+                </div>
+                <div class="studentdetailes">
+                    <div>
+                        <label for="session">Father's Name</label>
+                        <input type="text" id="input-father-name" placeholder="Example:XYZ">
+                    </div>
+                    <div>
+                        <label for="session">Mother's Name</label>
+                        <input type="text" id="input-mother-name" placeholder="Example:XYZ">
+                    </div>
+                    <div>
+                        <label for="session">College Name</label>
+                        <select name="" id="input-college-name">
+                            <option value=" (2349) I.T.M. COLLEGE, ALIGARH-PALWAL-DELHI ROAD, KARSUA, ALIGARH">I.T.M.
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="studentdetailes">
+                    <div>
+                        <label for="session">Category</label>
+                        <select name="category" id="input-category">
+                            <option value="REGULAR">REGULAR</option>
+                            <option value="PRIVATE">PRIVATE</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="session">Image</label>
+                        <input type="file" id="input-image" accept="image/*">
+                    </div>
+                </div>
+                <h4 style="text-align: center;">Subject Details</h4>
+                <div class="studentdetailes">
+                    <div>
+                        <label for="session">Subject Name</label>
+                        <input type="text" id="subject" placeholder="Enter subject name" required>
+                    </div>
+                    <div>
+                        <label for="session">Subject Marks</label>
+                        <input type="text" id="subject-marks" placeholder="Enter obtained marks" required>
+                    </div>
+                    <div>
+                        <label for="session">Internal Marks</label>
+                        <input type="text" id="internal-marks" placeholder="Enter obtained marks" required>
+                    </div>
+                </div>
+                <div class="studentdetailes">
+                    <button id="add-btn">Add Subjects</button>
+                </div>
+                <div class="studentdetailes" style="flex-direction: column;">
+                    <table class="todo-list" id="student-todo" style="display:none;">
+                        <thead>
+                            <tr>
+                                <td style="border: 1px solid black;">Subject Name</td>
+                                <td style="border: 1px solid black;">Subject Marks</td>
+                                <td style="border: 1px solid black;">Practical Marks</td>
+                                <td style="border: 1px solid black;">Total Marks</td>
+                                <td style="border: 1px solid black;">Action</td>
+                            </tr>
+                        </thead>
+                        <tbody id="todo-list">
+    
+                        </tbody>
+                    </table>
+                </div>
+                <div class="studentdetailes">
+                    <div>
+                        <label for="session">Practical Marks</label>
+                        <input type="text" id="input-practical-marks" placeholder="Enter obtained marks">
+                    </div>
+                    <div>
+                        <label for="session">Result Stauts</label>
+                        <select name="Stauts" id="input-result-stauts">
+                            <option value="PASS">PASS</option>
+                            <option value="FAIL">FAIL</option>
+                        </select>
+                    </div>
+                </div>
+                <h4 style="text-align: center;">Semester Wise Records</h4>
+                <div class="studentdetailes">
+                    <div>
+                        <label for="session">Semester</label>
+                        <select name="Semester" id="Semesterid">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="session">Total Semester Marks</label>
+                        <input type="text" id="Total-Semester-Marks" placeholder="Enter obtained marks">
+                    </div>
+                    <div>
+                        <label for="session">Semester Result Stauts</label>
+                        <select name="result" id="Semester-Result-Stauts">
+                            <option value="PASS">PASS</option>
+                            <option value="FAIL">FAIL</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="studentdetailes">
+                    <button id="add-sem-btn">Add Semester</button>
+                </div>
+                <div class="studentdetailes" style="flex-direction: column;">
+                    <table class="todo-list" id="sem-todo" style="display:none;">
+                        <thead>
+                            <tr>
+                                <td style="border: 1px solid black;">Semester</td>
+                                <td style="border: 1px solid black;">Total Marks</td>
+                                <td style="border: 1px solid black;">Result</td>
+                                <td style="border: 1px solid black;">Action</td>
+                            </tr>
+                        </thead>
+                        <tbody id="sem-todo-list">
+    
+                        </tbody>
+                    </table>
+                </div>
+                <div class="studentdetailes">
+                    <button onclick="student_details()">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="btn">
+        <span class="btn-1" onclick="printResult()">Print Result</span>
+        <span class="btn-1" id="openModal">Generate Result</span>
+    </div>
     <script src="main.js"></script>
+    <script src="marks.js"></script>
 </body>
 
 </html>

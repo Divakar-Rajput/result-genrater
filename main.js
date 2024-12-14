@@ -28,37 +28,13 @@ print_Time();
 setInterval(print_Time, 1000);
 
 
-function resize() {
-    const deviceWidth = window.innerWidth;
-    let width = (800 / deviceWidth) * 100;
-}
-resize();
-
-
 function printResult() {
+    document.getElementById("col-12").style.width = "100%";
     const printArea = document.querySelector(".print-area");
     const originalContent = document.body.innerHTML;
-
     document.body.innerHTML = printArea.outerHTML;
     window.print();
     document.body.innerHTML = originalContent;
     window.location.reload();
 }
-
-window.addEventListener("DOMContentLoaded", () => {
-    const printButton = document.createElement("button");
-    printButton.textContent = "Print Result";
-    printButton.style.position = "fixed";
-    printButton.style.bottom = "20px";
-    printButton.style.right = "20px";
-    printButton.style.padding = "10px 15px";
-    printButton.style.backgroundColor = "#ff7402";
-    printButton.style.color = "white";
-    printButton.style.border = "none";
-    printButton.style.cursor = "pointer";
-
-    printButton.addEventListener("click", printResult);
-
-    document.body.appendChild(printButton);
-});
 
